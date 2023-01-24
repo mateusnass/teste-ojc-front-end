@@ -1,0 +1,102 @@
+.formulario {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.formulario form {
+  max-width: 100%;
+  background-color: #fff;
+  justify-content: center;
+  padding: 26px 200px;
+}
+
+.input-nome {
+  background-color: #fff;
+  flex-direction: column;
+  display: flex;
+  border-radius: 2px;
+  width: 100%;
+  border: 2px solid;
+  font-size: 15px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.form-item {
+  display: flex;
+  justify-content: space-between;
+}
+.nome {
+  display: flex;
+
+  font-weight: bold;
+}
+.cpf {
+  display: flex;
+  margin: 3%;
+  font-weight: bold;
+}
+
+.data-nasc {
+  margin: 3%;
+  display: flex;
+  font-weight: bold;
+  padding-top: 16%;
+}
+
+.tel {
+  display: flex;
+  margin: 3%;
+  font-weight: bold;
+}
+
+.cpf, .tel{
+  padding-top: 10%;
+}
+.input-cpf {
+  background-color: #fff;
+  flex-direction: column;
+  display: flex;
+  border-radius: 2px;
+  width: 150%;
+  border: 2px solid;
+  font-size: 15px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.input-data {
+  background-color: #fff;
+
+  display: flex;
+  border-radius: 2px;
+  width: 100%;
+  border: 2px solid;
+  font-size: 15px;
+  padding: 4px;
+  box-sizing: border-box;
+}
+.input-tel {
+  background-color: #fff;
+  flex-direction: column;
+  display: flex;
+  border-radius: 2px;
+  width: 100%;
+  border: 2px solid;
+  font-size: 15px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.botaoCadastro{
+  background-color: #6278f7;
+  font-weight: bold;
+  font-size: 14;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  margin-top: 5%;
+  padding: 2%;
+}

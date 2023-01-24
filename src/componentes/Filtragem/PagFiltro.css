@@ -1,0 +1,120 @@
+.form-principal {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid;
+  margin: 0 200px;
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 30px;
+}
+
+.textr {
+  width: 12%;
+  display: flex;
+  position: relative;
+  bottom: 60px;
+  border-radius: 30px;
+  border: 2px solid #008cff;
+  background-color: #008cff;
+  align-items: center;
+}
+.text-filter {
+  display: flex;
+  font-size: 17px;
+  left: 1rem;
+  position: relative;
+  color: #fff;
+}
+
+.label-input {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  padding: 0 5px;
+}
+
+.botao-filtro {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+  padding-left: 3rem;
+}
+
+.buttonFil {
+  display: flex;
+  margin-top: 1rem;
+  padding: 17px;
+  font-weight: bold;
+  border-radius: 1rem;
+  background-color: #008cff;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.buttonFilA {
+  text-decoration: none;
+  color: #fff;
+}
+
+.buttonFil:hover {
+  background-color: #003258;
+}
+
+.textradio {
+  display: flex;
+  position: relative;
+  bottom: 40px;
+  padding: 10px;
+}
+
+.inputRadio {
+  width: 30px;
+
+  background-color: red;
+  background-position: center;
+}
+.inputRadio:hover {
+  background-color: red;
+}
+
+.input-nomeData {
+  background-color: #fff;
+  padding: 7%;
+  display: flex;
+  border-radius: 3px;
+  padding-left: 3px;
+  border: 2px solid;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.input-nomeFiltro {
+  background-color: #fff;
+  flex-direction: column;
+  display: flex;
+  border-radius: 3px;
+  border: 2px solid;
+  font-size: 15px;
+  padding: 11px 20px;
+  box-sizing: border-box;
+}
+
+.input-cpfFiltro {
+  background-color: #fff;
+  flex-direction: column;
+  display: flex;
+  border-radius: 3px;
+  border: 2px solid;
+  font-size: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.tabelaPrin {
+  margin-top: 30px;
+  padding: 60px;
+  border: 2px solid black;
+}

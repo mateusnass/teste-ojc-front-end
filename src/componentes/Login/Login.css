@@ -1,0 +1,49 @@
+.pag-login {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.pag-login form {
+  display: flex;
+  max-width: 100%;
+  background-color: #fff;
+  flex-direction: column;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 20px 7%;
+}
+.centro {
+  margin-top: 10px;
+}
+
+.email {
+  display: block;
+  justify-content: center;
+  justify-items: center;
+  font-weight: bold;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.input-email,
+.input-senha {
+  border-radius: 4px;
+  width: 100%;
+  margin-left: auto;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.botao-login {
+  padding: 15px;
+  margin-top: 15%;
+  border-radius: 5px;
+  justify-content: center;
+  background-color: #66bbff;
+  font-weight: bold;
+  font-size: 20px;
+}
