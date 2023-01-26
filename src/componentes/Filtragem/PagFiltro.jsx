@@ -1,13 +1,12 @@
 import "./PagFiltro.css";
-import "../Tabela/TabelaUser";
-//import TabelaForm from "../Tabela/TabelaUser";
 
 import { Form, Label, Input } from "reactstrap";
 import React, { useState } from "react";
+import Tabela from "../Tabela/Tabela";
 
 const PagFiltro = () => {
   return (
-    <div>
+    <><div>
       <div>
         <Form className="form-principal">
           <div>
@@ -20,15 +19,13 @@ const PagFiltro = () => {
                 name="gender"
                 value="1"
                 className="inputRadio"
-                style={{ backgroundColor: "white" }}
-              />
+                style={{ backgroundColor: "white" }} />
               <label>Física</label>
               <input
                 type="radio"
                 name="gender"
                 value="0"
-                className="inputRadio"
-              />
+                className="inputRadio" />
               <label>Jurídica</label>
             </div>
             <div className="label-input">
@@ -40,8 +37,7 @@ const PagFiltro = () => {
                 <Input
                   className="input-nomeData"
                   placeholder="Nome"
-                  type="date"
-                />
+                  type="date" />
               </div>
               <div className="label-input" style={{ flexDirection: "column" }}>
                 <Label for="Nome completo" className="nome">
@@ -52,7 +48,7 @@ const PagFiltro = () => {
               </div>
               <div className="label-input" style={{ flexDirection: "column" }}>
                 <Label for="Nome completo" className="nome">
-                  Cpf / Cnpj
+                  CPF / CNPJ
                 </Label>
 
                 <Input className="input-cpfFiltro" placeholder="CPF/CNPJ" />
@@ -74,7 +70,13 @@ const PagFiltro = () => {
         </Form>
       </div>
     </div>
+    
+    <Tabela /></>
+
   );
+    
+
+  
 };
 
 export default PagFiltro;

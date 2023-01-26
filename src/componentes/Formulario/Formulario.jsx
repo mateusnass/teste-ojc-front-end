@@ -9,7 +9,7 @@ const aoSalvar = (evento) => {
 
 
 
-const Formulario = () => {
+const Formulario = (botao, eventoTeclado) => {
   return (
     <div>
       <section className="formulario">
@@ -45,7 +45,7 @@ const Formulario = () => {
               Nome
             </Label>
 
-            <Input required={true} className="input-nome" placeholder="Nome" />
+            <Input required={true} onChange={eventoTeclado} name='nome' className="input-nome" placeholder="Nome" />
           </div>
           <div className="form-item">
             <div>
@@ -85,7 +85,7 @@ const Formulario = () => {
               <Input className="input-tel" placeholder="(00) 9 0000-0000" />
             </div>
           </div>
-          <button onSubmit={onclick} className="botaoCadastro">Enviar cadastro</button>
+          <button onSubmit={onclick} className="botaoSalvar">Salvar</button>
         </Form>
       </section>
 

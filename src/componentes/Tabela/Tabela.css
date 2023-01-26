@@ -1,0 +1,82 @@
+/*.botaoAlterar {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-left: 3rem;
+  }*/
+  
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+  .table {
+    margin-top: 30px;
+    border: 1px solid #000000;
+    background-color: #fff;
+  }
+
+  td, th {
+    border: 1px solid #000000;
+    
+  }
+
+
+
+.botaoAlterar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+a{
+  
+}
+  .buttonAlt {
+    display: flex;
+    align:center;
+    margin-top: 1rem;
+    padding: 7px;
+    
+    
+    font-weight: bold;
+    border-radius: 2rem;
+    background-color: #008cff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .buttonAltA {
+    text-decoration: none;
+    color: #fff;
+    
+  }
+
+  .buttonExcl {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 7px;
+    font-weight: bold;
+    border-radius: 2rem;
+    background-color: #ff0000;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+ .buttonAlt:hover {
+    background-color: #003258;
+  }
+
+  .buttonExcl:hover {
+    background-color: #580000;
+  }
+  

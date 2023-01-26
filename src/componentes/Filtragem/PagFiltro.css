@@ -13,6 +13,7 @@
   width: 12%;
   display: flex;
   position: relative;
+  margin-top: 10px;
   bottom: 60px;
   border-radius: 30px;
   border: 2px solid #008cff;

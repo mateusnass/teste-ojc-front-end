@@ -20,15 +20,15 @@ const Login = () => {
   return (
     <section className="pag-login">
       <Form onSubmit={handleSubmit}>
-        <h2 className="titulo">Pro Jaime</h2>
-        {/* <p>{String(authenticated)}</p> */}
+        <h2 className="titulo">LOGIN</h2>
+        
         <div className="email">
           <div className="centro">
-            <Label for="email">E-mail:</Label>
+            <Label for="email">Usuário:</Label>
             <Input
               required={true}
               className="input-email"
-              placeholder="teste@teste"
+              placeholder="Usuário"
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -52,7 +52,7 @@ const Login = () => {
         </div>
 
         <button type="submit" className="botao-login" onClick={login}>
-          <div style={{ color: "white" }}>Enviar</div>
+          <div style={{ color: "white" }}>Login</div>
         </button>
       </Form>
     </section>
